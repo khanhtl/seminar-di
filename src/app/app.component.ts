@@ -1,4 +1,5 @@
-import { ErrorComponent } from './error/error.component';
+import { ParentComponent } from './recruitment/parent.component';
+import { ChildComponent } from './recruitment/children.component';
 import { HighlightSearchDirective } from './highlight-search.directive';
 import { HighlightDirective } from './highlight.directive';
 import { AppConfig } from './AppConfig';
@@ -11,7 +12,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, RecruitmentComponent, ErrorComponent, HighlightDirective, FormsModule, CommonModule, HighlightSearchDirective],
+  imports: [RouterOutlet, ParentComponent, ChildComponent, RecruitmentComponent, HighlightDirective, FormsModule, CommonModule, HighlightSearchDirective],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })

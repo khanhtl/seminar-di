@@ -6,3 +6,14 @@ button {
 .highlight {
   background-color: yellow;
 }
+
+.popup {
+  position: fixed;
+  inset: 100px;
+  background: grey;
+}
+.popup-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
